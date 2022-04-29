@@ -1,0 +1,7 @@
+useful link:
+https://docs.oracle.com/javase/tutorial/networking/sockets/clientServer.html
+
+to run two or more instances of Client main you have to go to
+  Run Configuration
+    Modify Options
+      Allow multiple instances
