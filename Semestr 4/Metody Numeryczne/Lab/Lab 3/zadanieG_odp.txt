@@ -1,0 +1,2 @@
+Czy metody iteracyjne zbiegają się?
+Nie, przez co otrzymany wynik nie będzie dokładny
