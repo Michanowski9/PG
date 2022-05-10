@@ -1,0 +1,5 @@
+Celem funkcji jest odnalezienie miejsca zerowego w pobliżu zadanej wartości
+
+dla przybliżenia początkowego 6.0 otrzymaliśmy wartośc 6.2832, która jest poprawną wartością, ponieważ miejsce zerowe tan(2*pi) jest w tym miejscu.
+
+dla przybliżenia początkowego 4.5 otrzymaliśmy 4.7124, która nie jest poprawną wartością, ponieważ jest to miejsce gdzie tangens rośnie asymptotycznie do nieskończoności i zaczyna rosnąć asymptotycznie od minus nieskończoności. na krańcach przedziału są wartości o przeciwnych znakach i otrzymujemy wynik, pomimo że nie ma tam miejsca zerowego.
