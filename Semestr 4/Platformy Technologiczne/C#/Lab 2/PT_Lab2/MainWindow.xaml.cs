@@ -15,7 +15,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.IO;
 
-namespace pt_lab2
+namespace PT_Lab2
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

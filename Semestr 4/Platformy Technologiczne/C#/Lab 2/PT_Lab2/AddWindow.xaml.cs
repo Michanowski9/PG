@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 using System.IO;
 using System.Text.RegularExpressions;
 
-namespace pt_lab2
+namespace PT_Lab2
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
