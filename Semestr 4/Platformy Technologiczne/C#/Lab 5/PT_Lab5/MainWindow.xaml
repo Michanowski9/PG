@@ -1,0 +1,60 @@
+﻿<Window x:Class="PT_Lab5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PT_Lab5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="404" Width="432">
+    <Grid>
+        <!-- K -->
+        <Label Content="K" HorizontalAlignment="Left" Margin="15,15,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.471,0.404" Height="25" Width="20"/>
+        <TextBox Name="InputK" HorizontalAlignment="Left" Height="23" Margin="38,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+        <!-- N -->
+        <Label Content="N" HorizontalAlignment="Left" Margin="16,45,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="InputN" HorizontalAlignment="Left" Height="23" Margin="38,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+
+        <!-- Tasks -->
+        <Button Click="ButtonNewtonSymbolTasks" Content="Tasks" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="181,19,0,0"/>
+        <TextBox Name="OutputTasks" HorizontalAlignment="Left" Height="23" Margin="272,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+        <!-- Delegates -->
+        <Button Click="ButtonNewtonSymbolDelegates" Content="Delegates" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="181,44,0,0"/>
+        <TextBox Name="OutputDelegates" HorizontalAlignment="Left" Height="23" Margin="272,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+        <!-- Async/Await -->
+        <Button Click="ButtonNewtonSymbolAwait" Content="Async/Await" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="181,69,0,0"/>
+        <TextBox Name="OutputAsync" HorizontalAlignment="Left" Height="23" Margin="272,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+
+        <!-- Fibonacci block -->
+        <Label Content="Fibonacci" HorizontalAlignment="Left" Margin="24,129,0,0" VerticalAlignment="Top" Width="64"/>
+
+        <!-- Input Fibonacci -->
+        <Label Content="i" HorizontalAlignment="Left" Margin="75,160,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="InputFibonacci" HorizontalAlignment="Left" Height="23" Margin="103,158,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77"/>
+
+        <!-- Output Fibonacci-->
+        <Button Click="ButtonFibonacci" Content="GET" HorizontalAlignment="Left" VerticalAlignment="Top" Width="74" Margin="24,188,0,0"/>
+        <TextBox Name="OutputFibonacci" HorizontalAlignment="Left" Height="23" Margin="103,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="77"/>
+
+        <!-- Progress bar -->
+        <ProgressBar Name="ProgressBar" HorizontalAlignment="Left" Height="10" Margin="24,216,0,0" VerticalAlignment="Top" Width="156"/>
+
+
+        <!-- Output Fibonacci-->
+        <Button Click="ButtonCancelFibonacci" Content="Cancel" HorizontalAlignment="Left" VerticalAlignment="Top" Width="74" Margin="65,231,0,0"/>
+
+        <!-- Compression -->
+        <Label Content="Kompresja" HorizontalAlignment="Left" Margin="237,126,0,0" VerticalAlignment="Top" Width="71" Height="26"/>
+        <Button Click="ButtonCompress" Content="Compress" HorizontalAlignment="Left" VerticalAlignment="Top" Width="74" Margin="237,157,0,0"/>
+        <Button Click="ButtonDecompress" Content="Decompress" HorizontalAlignment="Left" VerticalAlignment="Top" Width="74" Margin="320,157,0,0"/>
+        
+        <!-- DNS -->
+        <Label Content="DNS" HorizontalAlignment="Left" Margin="235,185,0,0" VerticalAlignment="Top" Width="64"/>
+        <Button Click="ButtonResolve" Content="Resolve" HorizontalAlignment="Left" VerticalAlignment="Top" Width="74" Margin="272,188,0,0"/>
+        <TextBox Name="OutputDomains" HorizontalAlignment="Left" Height="100" Margin="237,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="155"/>
+    </Grid>
+</Window>
