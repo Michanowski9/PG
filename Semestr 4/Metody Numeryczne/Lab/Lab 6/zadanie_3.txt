@@ -1,0 +1,1 @@
+Lepiej wykorzystać aproksymacje, ponieważ pozwoli ona na uzyskanie funkcji o łagodniejszym wykresie, gdyż interpolacja musi przechodzić przez wszystkie punkty, które już są obarczone błędem pomiarowym. Aproksymacja znajduje dla nas przybliżony wykres przechodzący w pobliżu każdego z punktów.
